@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { IoEye, IoEyeOff } from "react-icons/io5";
-import { userDataContext } from "../context/temp.jsx";
+import { userDataContext } from "../context/UserContext.jsx";
 import axios from "axios";
 import bg from "../assets/authBg.png";
 
